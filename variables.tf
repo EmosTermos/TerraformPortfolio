@@ -11,7 +11,7 @@ variable "token" {
 variable "repository" {
   type        = string
   description = "Url to repository with Portfolio source code"
-  default     = "https://github.com/EmosTermos/porfolio_nextjs"
+  default     = "https://github.com/EmosTermos/PortfolioNextJs"
 }
 
 variable "app_name" {

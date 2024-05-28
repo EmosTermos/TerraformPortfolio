@@ -15,7 +15,7 @@ resource "aws_amplify_branch" "main" {
   framework = var.framework
 }
 
-resource "aws_amplify_domain_association" "portfolio_domain" {
+resource "aws_amplify_domain_association" "web_domain" {
   app_id      = aws_amplify_app.amplify_app.id
   domain_name = var.domain_name
 
